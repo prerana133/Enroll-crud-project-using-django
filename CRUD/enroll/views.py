@@ -2,8 +2,6 @@ from django.shortcuts import render, HttpResponseRedirect
 from .forms import StudentRegistration
 from .models import User
 
-# Create your views here.
-
 #This fuction will Add new Items and Show All Items
 def add_show(request):
     if request.method=='POST':
